@@ -11,6 +11,7 @@
  ****************************************************************************/
 #define gaojie
 #ifndef _LINUX_BLKDEV_H
+
 #define _LINUX_BLKDEV_H
 
 #include <linux/major.h>
