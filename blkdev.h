@@ -131,7 +131,7 @@ struct request {
 
  unsigned int current_nr_sectors;
 
- sector_t hard_sector;
+ sector_t hard_sector;   
  unsigned long hard_nr_sectors;
 
  unsigned int hard_cur_sectors;
