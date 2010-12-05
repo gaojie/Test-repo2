@@ -349,6 +349,7 @@ struct request_queue
  unsigned int nr_sorted;
  unsigned int in_flight;
 
+
  unsigned int sg_timeout;
  unsigned int sg_reserved_size;
  int node;
