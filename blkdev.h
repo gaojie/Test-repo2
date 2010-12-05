@@ -236,6 +236,7 @@ enum rq_flag_bits {
 #define REQ_PM_RESUME (1 << __REQ_PM_RESUME)
 #define REQ_PM_SHUTDOWN (1 << __REQ_PM_SHUTDOWN)
 #define REQ_ORDERED_COLOR (1 << __REQ_ORDERED_COLOR)
+
 #define REQ_RW_SYNC (1 << __REQ_RW_SYNC)
 
 struct request_pm_state
