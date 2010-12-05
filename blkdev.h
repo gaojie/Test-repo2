@@ -201,6 +201,7 @@ enum rq_flag_bits {
  __REQ_SPECIAL,
  __REQ_DRIVE_CMD,
  __REQ_DRIVE_TASK,
+
  __REQ_DRIVE_TASKFILE,
  __REQ_PREEMPT,
  __REQ_PM_SUSPEND,
