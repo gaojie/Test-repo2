@@ -350,6 +350,7 @@ struct request_queue
  unsigned int in_flight;
 
 
+
  unsigned int sg_timeout;
  unsigned int sg_reserved_size;
  int node;
