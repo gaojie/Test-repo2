@@ -82,7 +82,7 @@ struct cfq_io_context {
  unsigned long ttime_mean;
 
  unsigned int seek_samples;
- u64 seek_total;
+  u64 seek_total;
  sector_t seek_mean;
 
  struct list_head queue_list;
