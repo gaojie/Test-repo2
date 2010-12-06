@@ -2,7 +2,7 @@
  ****************************************************************************
  ***
 
- ***   This header was automatically generated from a Linux kernel header
+ ***   This header was automatically generated from a Linux kernel heade r
  ***   of the same name, to make information necessary for userspace to
  ***   call into the kernel available to libc.  It contains only constants,
 
