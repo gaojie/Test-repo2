@@ -14,7 +14,6 @@
 
 #include <linux/capability.h>
 
-struct pt_regs;
 
 #define MAX_ARG_PAGES 32
 
