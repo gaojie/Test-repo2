@@ -93,7 +93,6 @@ struct bio {
 #define BIO_USER_MAPPED 6  
 #define BIO_EOPNOTSUPP 7  
 #define bio_flagged(bio, flag) ((bio)->bi_flags & (1 << (flag)))
-
 #define BIO_POOL_BITS (4)
 #define BIO_POOL_OFFSET (BITS_PER_LONG - BIO_POOL_BITS)
 #define BIO_POOL_MASK (1UL << BIO_POOL_OFFSET)
